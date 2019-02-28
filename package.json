@@ -1,0 +1,11 @@
+{
+  "name": "dlj_common_css",
+  "version": "1.0.7",
+  "description": "a common CSS package",
+  "main": "index.less",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shouxie",
+  "license": "ISC"
+}
