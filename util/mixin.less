@@ -12,7 +12,7 @@
   border-radius: @radius;
 }
 // set shadow
-.box-shadow (@x: 2px, @y: 6px, @blur: 0px, @spread: 0px, @color: @dlj_halfOpacity)) {
+.box-shadow (@x: 2px, @y: 6px, @blur: 0px, @spread: 0px, @color: @dlj_halfOpacity) {
 	box-shadow: @arguments;
 	-moz-box-shadow: @arguments;
 	-webkit-box-shadow: @arguments;
@@ -37,14 +37,13 @@
 }
 // clear fix
 .clearfix() {
-  zoom: 1;
-  &:before,
   &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
     content: " ";
-    display: table;
-  }
-  &:after {
     clear: both;
+    height: 0;
   }
 }
 // set height and width

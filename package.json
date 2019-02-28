@@ -1,11 +1,17 @@
 {
   "name": "dlj_common_css",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "a common CSS package",
   "main": "index.less",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "shouxie",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0"
+  }
 }
